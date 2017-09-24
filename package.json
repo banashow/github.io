@@ -10,7 +10,7 @@
     "nodemon": "^1.11.0"
   },
   "scripts": {
-    "build": "node-sass --include-path node_modules/bulma scss/main.scss www/css/main.css",
+    "build": "node-sass --include-path node_modules/bulma scss/main.scss docs/css/main.css",
     "serve": "nodemon -e scss -x \"yarn run build\""
   }
 }
